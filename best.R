@@ -24,7 +24,7 @@ best <- function(state, outcome) {
   #print(sprintf("translating '%s' to %s", outcome, column.name))
 
   # read the data from the CSV file
-  best.hospital.data <- read.csv("data//outcome-of-care-measures.csv", colClasses = "character")
+  best.hospital.data <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
   #message("data loaded and parameters validated")
   
   # validate the state
